@@ -88,7 +88,7 @@ export default function Home() {
       </section>
 
       <section className="bg-secondary py-12">
-        <div className="flex flex-col items-center space-x-8 md:flex-row justify-between px-6 md:px-16 lg:px-40 container">
+        <div className="flex flex-col items-center md:space-x-8 md:flex-row justify-between px-6 md:px-16 lg:px-40 container">
           <div className="w-[200px] flex flex-col">
             <h5 className="text-center font-extrabold">
               Top-up Airtime and Data
