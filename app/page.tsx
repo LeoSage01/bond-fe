@@ -22,7 +22,7 @@ export default function Home() {
 
       <section className="bg-light ">
         <div className="flex flex-col items-center sm:flex-row sm:justify-between px-2 container pt-6">
-          <div className="px-6 mt-4">
+          <div className="px-6 sm:mt-4">
             <h3 className="text-3xl font-extrabold text-center mb-4">
               Take <span className="text-primary">Control</span> of Your{" "}
               <span className="text-primary">Finance</span>
@@ -107,7 +107,7 @@ export default function Home() {
           <div className="my-12 md:my-0 w-[200px] flex flex-col">
             <h5 className="text-center font-extrabold">Cable Subsciption</h5>
             <Image
-              className="my-4 mx-auto w-[200px]"
+              className="my-6 mx-auto w-[300px]"
               src={Frame2}
               alt="phone image"
               quality={100}
