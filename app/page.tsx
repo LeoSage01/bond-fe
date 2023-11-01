@@ -22,8 +22,8 @@ export default function Home() {
 
       <section className="bg-light ">
         <div className="flex flex-col items-center sm:flex-row sm:justify-between px-2 container pt-6">
-          <div className="px-6 sm:mt-4">
-            <h3 className="text-3xl font-extrabold text-center mb-4">
+          <div className="px-6 sm:mt-4 ">
+            <h3 className="text-3xl font-extrabold text-center mb-4 xl:text-5xl">
               Take <span className="text-primary">Control</span> of Your{" "}
               <span className="text-primary">Finance</span>
             </h3>
@@ -53,7 +53,7 @@ export default function Home() {
             </div>
           </div>
           <Image
-            className="w-[300px] md:w-[450px] lg:w-[500px]"
+            className="w-[300px] md:w-[450px] lg:w-[500px] 2xl:w-[700px]"
             src={IMG1}
             alt="phone image"
             quality={100}
@@ -64,14 +64,14 @@ export default function Home() {
       <section className="bg-secondary py-12">
         <div className="flex flex-col items-center sm:space-x-8 sm:flex-row sm:justify-between px-2 md:px-16 lg:px-40 container">
           <Image
-            className="hidden sm:block w-[450px]"
+            className="hidden sm:block w-[450px] lg:w-[500px] 2xl:w-[700px]"
             src={IMG2}
             alt="phone image"
             quality={100}
           />
 
           <div className="mb-4 sm:mb-0 sm:w-[250px] text-center">
-            <h4 className="text-xl font-extrabold mb-6">Free Bank Transfers</h4>
+            <h4 className="text-xl font-extrabold mb-6 2xl:text-3xl ">Free Bank Transfers</h4>
             <p className="small max-w-[190px] mx-auto">
               Enjoy free and fast bank transfers with 100% success rate to all
               banks across Nigeria.
@@ -90,7 +90,7 @@ export default function Home() {
       <section className="bg-secondary py-12">
         <div className="flex flex-col items-center md:space-x-8 md:flex-row justify-between px-6 md:px-16 lg:px-40 container">
           <div className="w-[200px] flex flex-col">
-            <h5 className="text-center font-extrabold">
+            <h5 className="text-center font-extrabold 2xl:text-3xl">
               Top-up Airtime and Data
             </h5>
             <Image
@@ -105,9 +105,9 @@ export default function Home() {
           </div>
 
           <div className="my-12 md:my-0 w-[200px] flex flex-col">
-            <h5 className="text-center font-extrabold">Cable Subsciption</h5>
+            <h5 className="text-center font-extrabold 2xl:text-3xl">Cable Subsciption</h5>
             <Image
-              className="my-6 mx-auto w-[300px]"
+              className="my-6 mx-auto w-[350px]"
               src={Frame2}
               alt="phone image"
               quality={100}
@@ -119,7 +119,7 @@ export default function Home() {
           </div>
 
           <div className="w-[200px] flex flex-col">
-            <h5 className="text-center font-extrabold">Electricity Bills</h5>
+            <h5 className="text-center font-extrabold 2xl:text-3xl">Electricity Bills</h5>
             <Image
               className="my-4 mx-auto w-[200px]"
               src={Frame3}
@@ -137,7 +137,7 @@ export default function Home() {
       <section className="bg-secondary py-12">
         <div className="flex flex-col items-center sm:flex-row px-6 md:px-16 lg:px-40 justify-between container">
           <div className="text-center w-[300px] my-auto">
-            <h5 className="text-xl font-bold">
+            <h5 className="text-xl font-bold 2xl:text-3xl">
               Bulk and Multiple Transactions
             </h5>
             <p className="small mt-6 px-2">
@@ -146,14 +146,14 @@ export default function Home() {
             </p>
           </div>
 
-          <Image src={Use} alt="phone image" width={250} quality={100} />
+          <Image className="2xl:w-[500px] " src={Use} alt="phone image" width={250} quality={100} />
         </div>
       </section>
 
       <section className="bg-light py-16">
         <div className="flex flex-col sm:flex-row justify-center items-center sm:space-x-10 sm:justify-between px-6 md:px-16 lg:px-40 container">
           <div className=" sm:w-[250px] md:w-[300px] flex flex-col justify-between text-center">
-            <h4 className="text-xl font-extrabold">
+            <h4 className="text-xl font-extrabold 2xl:text-3xl">
               {" "}
               We Are <span className="text-primary">Always</span> Here For You
             </h4>
@@ -165,7 +165,7 @@ export default function Home() {
           </div>
 
           <div className="bg-light mt-12 sm:mt-0 w-[250px] md:w-[300px] flex flex-col justify-center items-center text-center">
-            <h4 className="text-xl font-extrabold text-primary">
+            <h4 className="text-xl font-extrabold text-primary 2xl:text-3xl">
               Download the Bond App
             </h4>
             <p className="mt-4 small">

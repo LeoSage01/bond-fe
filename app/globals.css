@@ -29,3 +29,10 @@ section {
   font-weight: 300;
   color: rgba(0, 0, 0, 0.7);
 }
+
+@media (min-width: 1500px) {
+  .small {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
