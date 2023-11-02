@@ -1,4 +1,4 @@
-// import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Image from "next/image";
 import IMG1 from "./assets/phone.png";
@@ -18,7 +18,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-{/*       <Navbar /> */}
+      <Navbar />
 
       <section className="bg-light ">
         <div className="flex flex-col items-center sm:flex-row sm:justify-between px-2 container pt-6">
