@@ -70,9 +70,9 @@ export default function Home() {
             quality={100}
           />
 
-          <div className="mb-4 sm:mb-0 sm:w-[250px] text-center">
+          <div className="mb-4 sm:mb-0 sm:w-[250px]  text-center">
             <h4 className="text-xl font-extrabold mb-6 2xl:text-3xl ">Free Bank Transfers</h4>
-            <p className="small max-w-[190px] mx-auto">
+            <p className="small max-w-[190px] xl:max-w-[220px] mx-auto">
               Enjoy free and fast bank transfers with 100% success rate to all
               banks across Nigeria.
             </p>
@@ -89,7 +89,7 @@ export default function Home() {
 
       <section className="bg-secondary py-12">
         <div className="flex flex-col items-center md:space-x-8 md:flex-row justify-between px-6 md:px-16 lg:px-40 container">
-          <div className="w-[200px] flex flex-col">
+          <div className="w-[200px] xl:w-[300px] flex flex-col">
             <h5 className="text-center font-extrabold 2xl:text-3xl">
               Top-up Airtime and Data
             </h5>
@@ -104,7 +104,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="my-12 md:my-0 w-[200px] flex flex-col">
+          <div className="my-12 md:my-0 w-[200px] xl:w-[300px] flex flex-col">
             <h5 className="text-center font-extrabold 2xl:text-3xl">Cable Subsciption</h5>
             <Image
               className="my-6 mx-auto w-[350px]"
@@ -118,7 +118,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="w-[200px] flex flex-col">
+          <div className="w-[200px] xl:w-[300px] flex flex-col">
             <h5 className="text-center font-extrabold 2xl:text-3xl">Electricity Bills</h5>
             <Image
               className="my-4 mx-auto w-[200px]"
@@ -152,7 +152,7 @@ export default function Home() {
 
       <section className="bg-light py-16">
         <div className="flex flex-col sm:flex-row justify-center items-center sm:space-x-10 sm:justify-between px-6 md:px-16 lg:px-40 container">
-          <div className=" sm:w-[250px] md:w-[300px] flex flex-col justify-between text-center">
+          <div className=" sm:w-[250px] md:w-[300px] xl:w-[500px] flex flex-col justify-between text-center">
             <h4 className="text-xl font-extrabold 2xl:text-3xl">
               {" "}
               We Are <span className="text-primary">Always</span> Here For You
@@ -164,7 +164,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="bg-light mt-12 sm:mt-0 w-[250px] md:w-[300px] flex flex-col justify-center items-center text-center">
+          <div className="bg-light mt-12 sm:mt-0 w-[250px] md:w-[300px] xl:w-[500px] flex flex-col justify-center items-center text-center">
             <h4 className="text-xl font-extrabold text-primary 2xl:text-3xl">
               Download the Bond App
             </h4>
