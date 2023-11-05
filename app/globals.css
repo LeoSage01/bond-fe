@@ -32,7 +32,12 @@ section {
 
 @media (min-width: 1500px) {
   .small {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  h4 {
+    font-size: 22px;
     font-weight: 600;
   }
 }

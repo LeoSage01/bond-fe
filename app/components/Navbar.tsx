@@ -4,10 +4,10 @@ import Logo from "../assets/logo.png";
 import IMG from "../assets/menu.png";
 import Image from "next/image";
 
+type Props = {};
 
 
-
-const Navbar = () => {
+const Navbar = (props: Props) => {
   return (
     <nav className="bg-primary py-3 px-4 sm:py-4 sm:px-8">
       <div className="flex justify-between items-center">

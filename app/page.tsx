@@ -152,7 +152,7 @@ export default function Home() {
 
       <section className="bg-light py-16">
         <div className="flex flex-col sm:flex-row justify-center items-center sm:space-x-10 sm:justify-between px-6 md:px-16 lg:px-40 container">
-          <div className=" sm:w-[250px] md:w-[300px] xl:w-[500px] flex flex-col justify-between text-center">
+          <div className=" sm:w-[250px] md:w-[300px] flex flex-col justify-between text-center">
             <h4 className="text-xl font-extrabold 2xl:text-3xl">
               {" "}
               We Are <span className="text-primary">Always</span> Here For You
@@ -164,7 +164,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="bg-light mt-12 sm:mt-0 w-[250px] md:w-[300px] xl:w-[500px] flex flex-col justify-center items-center text-center">
+          <div className="bg-light mt-12 sm:mt-0 w-[250px] md:w-[300px] flex flex-col justify-center items-center text-center">
             <h4 className="text-xl font-extrabold text-primary 2xl:text-3xl">
               Download the Bond App
             </h4>
