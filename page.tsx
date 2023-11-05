@@ -1,5 +1,5 @@
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Navbar from "./components/Navbar.tsx";
+import Footer from "./components/Footer.tsx";
 import Image from "next/image";
 import IMG1 from "./assets/phone.png";
 import IMG2 from "./assets/pphn.png";
@@ -61,17 +61,19 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-secondary py-12">
-        <div className="flex flex-col items-center sm:space-x-8 sm:flex-row sm:justify-between px-2 md:px-16 lg:px-40 container">
+      <section className="bg-secondary py-12 px-2 md:px-16 lg:px-40 ">
+        <div className="flex flex-col items-center justify-center sm:space-x-8 sm:flex-row container">
           <Image
-            className="hidden sm:block w-[450px] lg:w-[500px] 2xl:w-[700px]"
+            className="hidden sm:block w-[450px] lg:w-[500px] xl:w-[550px]"
             src={IMG2}
             alt="phone image"
             quality={100}
           />
 
-          <div className="mb-4 sm:mb-0 sm:w-[250px]  text-center">
-            <h4 className="text-xl font-extrabold mb-6 2xl:text-3xl ">Free Bank Transfers</h4>
+          <div className="mb-4 sm:mb-0 sm:w-[250px] xl:w-[350px]  text-center">
+            <h4 className="text-xl font-extrabold mb-6 2xl:text-3xl ">
+              Free Bank Transfers
+            </h4>
             <p className="small max-w-[190px] xl:max-w-[220px] mx-auto">
               Enjoy free and fast bank transfers with 100% success rate to all
               banks across Nigeria.
@@ -105,7 +107,9 @@ export default function Home() {
           </div>
 
           <div className="my-12 md:my-0 w-[200px] xl:w-[300px] flex flex-col">
-            <h5 className="text-center font-extrabold 2xl:text-3xl">Cable Subsciption</h5>
+            <h5 className="text-center font-extrabold 2xl:text-3xl">
+              Cable Subsciption
+            </h5>
             <Image
               className="my-6 mx-auto w-[350px]"
               src={Frame2}
@@ -119,7 +123,9 @@ export default function Home() {
           </div>
 
           <div className="w-[200px] xl:w-[300px] flex flex-col">
-            <h5 className="text-center font-extrabold 2xl:text-3xl">Electricity Bills</h5>
+            <h5 className="text-center font-extrabold 2xl:text-3xl">
+              Electricity Bills
+            </h5>
             <Image
               className="my-4 mx-auto w-[200px]"
               src={Frame3}
@@ -146,13 +152,19 @@ export default function Home() {
             </p>
           </div>
 
-          <Image className="2xl:w-[500px] " src={Use} alt="phone image" width={250} quality={100} />
+          <Image
+            className="2xl:w-[400px] "
+            src={Use}
+            alt="phone image"
+            width={250}
+            quality={100}
+          />
         </div>
       </section>
 
       <section className="bg-light py-16">
         <div className="flex flex-col sm:flex-row justify-center items-center sm:space-x-10 sm:justify-between px-6 md:px-16 lg:px-40 container">
-          <div className=" sm:w-[250px] md:w-[300px] xl:w-[500px] flex flex-col justify-between text-center">
+          <div className=" sm:w-[250px] md:w-[300px] flex flex-col justify-between text-center">
             <h4 className="text-xl font-extrabold 2xl:text-3xl">
               {" "}
               We Are <span className="text-primary">Always</span> Here For You
@@ -164,7 +176,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="bg-light mt-12 sm:mt-0 w-[250px] md:w-[300px] xl:w-[500px] flex flex-col justify-center items-center text-center">
+          <div className="bg-light mt-12 sm:mt-0 w-[250px] md:w-[300px] flex flex-col justify-center items-center text-center">
             <h4 className="text-xl font-extrabold text-primary 2xl:text-3xl">
               Download the Bond App
             </h4>

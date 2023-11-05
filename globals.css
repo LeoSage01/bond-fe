@@ -33,6 +33,11 @@ section {
 @media (min-width: 1500px) {
   .small {
     font-size: 20px;
+    font-weight: 500;
+  }
+
+  h4 {
+    font-size: 24px;
     font-weight: 600;
   }
 }
