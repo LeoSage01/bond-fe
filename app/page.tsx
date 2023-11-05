@@ -1,5 +1,5 @@
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Navbar from "./components/Navbar.tsx";
+import Footer from "./components/Footer.tsx";
 import Image from "next/image";
 import IMG1 from "./assets/phone.png";
 import IMG2 from "./assets/pphn.png";
